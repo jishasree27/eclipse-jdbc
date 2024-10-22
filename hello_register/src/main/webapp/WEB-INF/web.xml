@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>emp_servlet</servlet-name>
+  	<display-name>emp_servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.emp_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>emp_servlet</servlet-name>
+  	<url-pattern>/emp_servlet</url-pattern>
+  </servlet-mapping>
+</web-app>

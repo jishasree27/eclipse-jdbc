@@ -1,0 +1,14 @@
+
+<?xml version="1.0"encoding="UTF-8"?>
+Bind to grammar/schema...
+<web-app>
+
+<servlet>
+	<servlet-name>InsertServlet</servlet-name>
+	<servlet-Class>org.crud.application.Insertservlet</servlet-Class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>InsertServlet</servlet-name>
+	<url-pattern>/Employee</url-pattern>
+</servlet-mapping>
+</web-app>

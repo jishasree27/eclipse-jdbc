@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Host name="localhost"  appBase="webapps"
+    unpackWARs="true" autoDeploy="true">
+
+    <!-- Define context for CRUD-Application -->
+    <Context path="/CRUD-Application" docBase="CRUD-Application" reloadable="true" />
+</Host>
